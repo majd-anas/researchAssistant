@@ -1,0 +1,33 @@
+
+1. What is your application called? 
+    -Research Assistant
+
+2. What problem does it solve, and for whom? 
+    -it solves the time-sinking problem of gathering research papers about a certain topic from google scholar.
+    its mainly for researchers
+
+3. What will the user be able to do? List at least 6 main features.
+    -search for a batch of papers at once on google scholar
+    -filter their search results by year and language
+    -store folder contents(papers) into csv format runnable by excel
+    -stores papers into folder for each topic
+    -delete and search for papers inside folder
+    -get most recent searches
+    -get number of searches
+    -data[folders and papers] is saved each time and reloaded 
+
+4. What will you store in files? 
+    -user library which contains there papers and folder will be saved after exiting the program
+    and is always reloaded when running the program
+    -searches are recored in a file 
+    -number of searches is recorded 
+
+5. What class or classes will you create?
+    -library: stores an array of folders in a dictionary
+    -folder: stores a list of papers that belongs to it
+    -paper: stores the paper info (author,link, summary, title..)
+    -author: stores author details(name,id,profile)
+
+6. Why did you choose this idea? 
+    -currently working on a research paper for a professor and needed a tool to search and filter for a large number of papers quickly and effeciently
+    instead of going through each search result in google scholar manually
